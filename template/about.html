@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style2.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+    <title>About</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">HOME</a><a href="{% url 'about' %}">ABOUT</a>
+    <h1>Qualifications</h1>
+    <h3>Skills</h3>
+    <p>
+        These are the Qualifications I have gathered throughout my university life at UAP. 
+    </p>
+    <div class="html">
+        <p>HTML</p>
+        <div class="htmlbar"></div>
+    </div>
+    <div class="css">
+        <p>CSS</p>
+        <div class="cssbar"></div>
+    </div>
+    <div class="js">
+        <p>JavaScript</p>
+        <div class="jsbar"></div>
+    </div>
+    <div class="java">
+        <p>Java</p>
+        <div class="javabar"></div>
+    </div>
+    <div class="python">
+        <p>Python</p>
+        <div class="pythonbar"></div>
+    </div>
+    <div class="django">
+        <p>Django</p>
+        <div class="djangobar"></div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 60%;
+    margin: 50px auto;
+}
+a{
+    padding-right:20px ;
+    color: rgb(186, 4, 162);
+    text-decoration: none;
+}
+p{
+    font-weight: 200;
+}
+.html , .css , .js , .java , .python , .django {
+    margin: 0 0 20px 0;
+}
+.html p, .css p, .js p, .java p, .python p, .django p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(147, 31, 201, 0.612);
+    margin: 0;
+    padding: 0;
+}
+.htmlbar{
+    width: 500px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+.cssbar{
+    width: 250px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+.jsbar{
+    width: 370px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+.javabar{
+    width: 200px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+.pythonbar{
+    width: 300px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+.djangobar{
+    width: 150px;
+    height: 10px;
+    background: rgb(57,98,208);
+background: linear-gradient(90deg, rgba(57,98,208,1) 0%, rgba(60,7,183,1) 29%, rgba(122,17,222,1) 60%, rgba(200,11,202,1) 100%);
+}
+
+img{
+    width: 300px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
